@@ -310,7 +310,7 @@ header.sticky {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .logo {
     width: 40px;
   }
@@ -565,7 +565,7 @@ label {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .about h1 {
     font-size: 40px;
   }
@@ -815,7 +815,7 @@ td a:hover {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .table-menu {
     width: 100vw;
   }
@@ -955,7 +955,7 @@ td a:hover {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .best-seller-card {
     width: 300px;
   }
@@ -1124,7 +1124,7 @@ td a:hover {
     width: 300px;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .best-seller-mini-combo {
     padding-left: 10px;
   }
@@ -1416,7 +1416,7 @@ td a:hover {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 430px) {
   .contact-section {
     padding-left: 10px;
     padding-top: 100px;
