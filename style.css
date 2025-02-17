@@ -320,18 +320,18 @@ header.sticky {
   }
 
   .hero-main {
-    margin-left: 20px;
+    margin-left: 30px;
     margin-top: -60px;
   }
   .hero-spaced-letters {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 2;
     letter-spacing: 4px;
     margin-top: -20px;
     margin-bottom: 20px;
   }
   .hero-main h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .hero-main a {
     padding: 5px 10px;
@@ -341,7 +341,7 @@ header.sticky {
     font-size: 16px;
   }
   .hero-small-text {
-    font-size: 10px;
+    font-size: 14px;
     padding-right: 20px;
     margin-bottom: 25px;
   }
@@ -572,11 +572,11 @@ label {
 
   .about {
     padding-top: 100px;
-    padding-left: 15px;
+    padding-left: 25px;
   }
 
   .about p {
-    font-size: 12px;
+    font-size: 14px;
     margin-left: -30px;
   }
 }
@@ -821,20 +821,20 @@ td a:hover {
   }
 
   tbody {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .i {
-    padding-left: 20px;
+    padding-left: 49px;
   }
 
   .ii {
-    padding-left: 0;
+    padding-left: 25px;
   }
 
   .iii {
     width: 350px;
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
@@ -957,11 +957,11 @@ td a:hover {
 
 @media (max-width: 430px) {
   .best-seller-card {
-    width: 300px;
+    width: 340px;
   }
 
   .best-seller-card p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .best-seller-exotic h2 {
@@ -1126,16 +1126,16 @@ td a:hover {
 }
 @media (max-width: 430px) {
   .best-seller-mini-combo {
-    padding-left: 10px;
+    padding-left: 35px;
   }
 
   .best-seller-mini-combo p {
     font-size: 16px;
-    width: 270px;
+    width: 280px;
   }
 
   .best-seller-mini-combo img {
-    width: 300px;
+    width: 330px;
   }
 }
 
@@ -1260,6 +1260,21 @@ td a:hover {
   .vision-section p {
     font-size: 12px;
     width: 300px;
+  }
+}
+
+@media (max-width: 430px) {
+  .vision-section {
+    padding-left: 30px;
+  }
+
+  .vision-section p {
+    font-size: 12px;
+    width: 300px;
+  }
+
+  .vision-section h2 {
+    font-size: 30px;
   }
 }
 
@@ -1418,9 +1433,8 @@ td a:hover {
 
 @media (max-width: 430px) {
   .contact-section {
-    padding-left: 10px;
+    padding-left: 25px;
     padding-top: 100px;
-    background-position: left;
   }
 
   .contact-section h2 {
@@ -1483,9 +1497,9 @@ footer {
   background-color: #22100a;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 430px) {
   footer {
-    font-size: 8px;
+    font-size: 10px;
   }
 }
 
