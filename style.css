@@ -657,7 +657,7 @@ thead {
 }
 
 tbody {
-  font-size: 14px;
+  font-size: 12px;
   box-shadow: rgba(175, 163, 156, 0.378) 0px 10px 10px -10px;
 }
 
@@ -686,11 +686,14 @@ tbody:hover {
 td a {
   text-decoration: none;
   color: white;
+  padding: 3px 6px;
+  background-color: #8b4b248c;
+  border-radius: 6px;
 }
 
 td a:hover {
-  color: #280ac0;
-  font-weight: 800;
+  color: #000;
+  font-weight: 600;
   transition: 0.5s;
 }
 
@@ -747,7 +750,7 @@ td a:hover {
   }
 
   tbody {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -756,11 +759,15 @@ td a:hover {
     font-size: 50px;
   }
   .i {
-    padding-left: 60px;
+    padding-left: 100px;
   }
 
   .ii {
-    padding-left: 60px;
+    padding-left: 70px;
+  }
+
+  .iii {
+    padding-left: 20px;
   }
 
   .table-menu {
@@ -785,7 +792,7 @@ td a:hover {
   }
 
   tbody {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
@@ -801,9 +808,10 @@ td a:hover {
 
 @media (max-width: 450px) {
   td a {
-    border-bottom: 1px solid #280ac0;
-    padding-bottom: 10px;
-    border-radius: 3px;
+    padding: 3px 6px;
+    background-color: #8b4b248c;
+    border-radius: 6px;
+    font-size: 10px;
   }
 
   .i {
@@ -825,22 +833,30 @@ td a:hover {
   }
 
   .i {
-    padding-left: 49px;
+    padding-left: 35px;
   }
 
   .ii {
-    padding-left: 25px;
+    padding-left: 20px;
   }
 
   .iii {
     width: 350px;
     font-size: 12px;
+    padding-left: 10px;
   }
 }
 
 @media (max-width: 350px) {
   .menu-section h2 {
     font-size: 30px;
+  }
+
+  td a {
+    padding: 3px 6px;
+    background-color: #8b4b248c;
+    border-radius: 6px;
+    font-size: 8px;
   }
 
   .table-header h2 {
@@ -1135,7 +1151,7 @@ td a:hover {
   }
 
   .best-seller-mini-combo img {
-    width: 330px;
+    width: 300px;
   }
 }
 
