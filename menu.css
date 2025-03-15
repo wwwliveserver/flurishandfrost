@@ -340,21 +340,21 @@ body {
 
 @media (max-width: 450px) {
   .navbar {
-    gap: 20px;
+    gap: 15px;
   }
   .navbar a {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .logo {
     height: 40px;
-    margin-left: -20px;
+    margin-left: -15px;
   }
 
   .search-bar {
     margin-left: 45px;
-    margin-right: 30px;
-    width: 32%;
+    margin-right: 15px;
+    width: 35%;
     padding: 4px 8px !important;
     font-size: 10px !important;
   }
@@ -365,6 +365,10 @@ body {
 
   #cart-btn {
     background-color: transparent !important;
+  }
+
+  .categories {
+    font-weight: normal;
   }
 
   #cart-counter {
@@ -383,7 +387,7 @@ body {
   }
 
   .navbar a {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .logo {
@@ -399,7 +403,7 @@ body {
   }
 
   #clickableList {
-    margin-left: -45px !important;
+    margin-left: -60px !important;
   }
 }
 
@@ -813,12 +817,12 @@ button {
   }
 
   .product p {
-    font-size: 14px;
+    font-size: 12px;
     max-width: 350px;
   }
 
   .product {
-    max-width: 470px !important;
+    max-width: 98% !important;
   }
 
   .product h2,
@@ -831,11 +835,12 @@ button {
   }
 
   .product img {
-    width: 95%; /* Set a fixed width */
+    width: 92%; /* Set a fixed width */
     padding-left: 0;
     height: 320px !important ;
     border-radius: 20px;
     position: relative;
+    margin-left: 10px;
   }
 
   button {
@@ -848,11 +853,11 @@ button {
   }
 
   .popup {
-    width: 80%;
+    width: 75%;
     left: 5%;
     top: auto !important;
-    margin-top: -650px;
-    margin-left: 16px !important;
+    margin-top: -480px;
+    margin-left: 5px !important;
   }
 
   .close-btn {
