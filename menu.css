@@ -809,11 +809,11 @@ button {
   }
 
   .product h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .product p {
-    font-size: 18px;
+    font-size: 14px;
     max-width: 350px;
   }
 
@@ -831,9 +831,9 @@ button {
   }
 
   .product img {
-    width: 450px; /* Set a fixed width */
+    width: 95%; /* Set a fixed width */
     padding-left: 0;
-    height: 450px !important ;
+    height: 320px !important ;
     border-radius: 20px;
     position: relative;
   }
@@ -862,12 +862,12 @@ button {
 
 @media (max-width: 400px) {
   .product p {
-    font-size: 16px;
+    font-size: 12px;
     max-width: 300px;
   }
 
   .product h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .product {
@@ -879,8 +879,7 @@ button {
   }
 
   .product img {
-    width: 350px; /* Set a fixed width */
-    height: 400px !important ;
+    width: 95%; /* Set a fixed width */
     margin-left: 1px;
   }
 
