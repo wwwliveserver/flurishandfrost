@@ -369,6 +369,7 @@ body {
 
   .categories {
     font-weight: normal;
+    font-size: 10px !important;
   }
 
   #cart-counter {
@@ -378,6 +379,10 @@ body {
     top: -3px !important;
 
     right: 2px !important;
+  }
+
+  #clickableList {
+    margin-left: -60px !important;
   }
 }
 
@@ -394,16 +399,16 @@ body {
     margin-left: 0;
   }
 
+  .categories {
+    font-weight: normal;
+  }
+
   .search-bar {
     margin-left: 45px;
     margin-right: 10px;
-    width: 36%;
+    width: 35%;
     padding: 4px 8px !important;
     font-size: 10px !important;
-  }
-
-  #clickableList {
-    margin-left: -60px !important;
   }
 }
 
