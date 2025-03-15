@@ -1,3 +1,19 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const sections = document.querySelectorAll(".section");
+
+  function checkScroll() {
+    sections.forEach((section) => {
+      const rect = section.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.75) {
+        section.classList.add("visible");
+      }
+    });
+  }
+
+  window.addEventListener("scroll", checkScroll);
+  checkScroll(); // Run on page load
+});
+
 const header = document.querySelector("header");
 window.addEventListener("scroll", function () {
   if (document.documentElement.scrollTop > 20) {
@@ -6,12 +22,3 @@ window.addEventListener("scroll", function () {
     header.classList.remove("sticky");
   }
 });
-
-function sendMessage(productName, price) {
-  const phoneNumber = "2348067168043"; // Seller's WhatsApp number
-  const message = `Hello, I'd like to order the ${productName} for ₦${price}.`;
-  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-    message
-  )}`;
-  window.open(url, "_blank");
-}

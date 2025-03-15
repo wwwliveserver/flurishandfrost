@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Quality Bread at affordable prices. Chat to order directly on WhatsApp."
+    />
+    <title>Flurish_and_Frost</title>
+
+    <link rel="shortcut icon" href="img/Logopng.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar" id="navbar">
+      <img
+        src="img/Logopng.png"
+        alt="Logo"
+        class="logo"
+        id="logo"
+        height="500"
+      />
+      <input type="search" class="search-bar" placeholder="Search..." />
+      <input type="submit" class="submit" />
+      <a href="index.html">Home</a>
+      <a href="index.html#about" class="hide">About</a>
+      <a href="#" id="toggleList" class="categories">Categories</a>
+    <ul id="clickableList">
+      <li><span class="close-button">&times;</span></li>
+      <li><a href="menu.html" >All breads</a></li>
+      <li><a href="classic.html" class="classic">Classic breads</a></li>
+      <li><a href="mini-combo.html" class="active">Mini-set combo deals</a></li>
+      <li><a href="exotic.html" class="exotic">Exotic breads</a></li>
+      <li><a href="#" class="zobo">Frutti zobo-mix</a></li>
+    </ul>
+
+    <a href="cart.html" class="view-cart-btn" id="cart-btn">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-cart-check-fill"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708"
+        />
+      </svg>
+     <span class="cart-text">Cart</span>  <span id="cart-counter" >0</span>
+    </a>
+  </div>
+    
+ <div class="content">
+        <div class="left-side ">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="menu.html" >All breads </a></li>
+            <li><a href="classic.html" class="classic">Classic breads</a></li>
+            <li><a href="#"class="active">Mini-set combo deals</a></li>
+            <li><a href="exotic.html" class="exotic">Exotic breads</a></li>
+            <li><a href="#" class="zobo">Frutti zobo-mix</a></li>
+          </ul>
+        </div>
+
+        <div class="right-side">
+    <!-- Product Section -->
+
+
+    <div class="product-row">
+
+      <div class="product">
+        <img src="img/Banana bliss.jpg" alt="Banana bliss"height="300"/>
+        <h2 class="product-name">Banana bliss</h2>
+        <p>Banana, coconut, Chocolate and Carrot Bread</p>
+        <p>4-sets (6x3 inch) - ₦ 5,600</p>
+        <button class="order-btn" data-product="Banana bliss" data-size="Mini (4-sets)" data-price="5600">Order Mini-set deals</button>
+    
+  
+        <div class="popup">
+            <span class="close-btn">&times;</span>
+            <h2 class="popup-title"></h2>
+            <p class="popup-size"></p>
+            <p class="popup-price"></p>
+            <label class="quantity-label">Quantity: <input type="number" class="quantity" value="1" min="1"></label>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+  
+      
+      <div class="product">
+        <img src="img/Nutty nana.jpg" alt="Nutty nana">
+        <h2 class="product-name">Nutty nana</h2>
+        <p>Nutella, coconut, Almond, Peanut and Banana x Coconut x Raisins x Almonds</p>
+        <p>6-sets (6x3 inch) - ₦ 8,900</p>
+        <button class="order-btn" data-product="Nutty nana" data-size="Mini (6-sets)" data-price="8900">Order Mini-set deals</button>
+    
+  
+        <div class="popup">
+            <span class="close-btn">&times;</span>
+            <h2 class="popup-title"></h2>
+            <p class="popup-size"></p>
+            <p class="popup-price"></p>
+            <label class="quantity-label">Quantity: <input type="number" class="quantity" value="1" min="1"></label>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+  
+      
+      <div class="product">
+        <img src="img/Chunky choco nana.jpg" alt="Chunky choco nana"height="300">
+        <h2 class="product-name">Chunky choco nana</h2>
+        <p>Banana x Chocolate , Banana x Oreos, Chic choc blast, Banana x Cashew x chocolate chunks Bread</p>
+        <p>4-sets (6x3 inch) - ₦ 7,000</p>
+        <button class="order-btn" data-product="Chunky choco nana" data-size="Mini (4-sets)" data-price="7000">Order Mini-set deals</button>
+    
+  
+        <div class="popup">
+            <span class="close-btn">&times;</span>
+            <h2 class="popup-title"></h2>
+            <p class="popup-size"></p>
+            <p class="popup-price"></p>
+            <label class="quantity-label">Quantity: <input type="number" class="quantity" value="1" min="1"></label>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+      
+    </div>
+  
+
+  <div class="product">
+    <img class="last-product" src="img/banana boost.jpg" alt="Banana boost" height="380" />
+    <h2 class="product-name">Banana boost</h2>
+    
+    <p class="product-description">
+        Banana, Banana x coconut, Banana x carrot, Banana x carrot, Banana x chocolate, 
+        Banana x almond, Banana x peanut, Banana x Oreos, Chic choc blast, Frutti mix, 
+        Nutty mix, Banana x Nutella, Banana x cashew x chocolate chunks Bread
+    </p>
+    
+    <button class="read-more">See more</button>
+
+    <p>12-sets (6x3 inch) - ₦ 19,500</p>
+    <button class="order-btn" data-product="Banana bliss" data-size="Mini (12-sets)" data-price="19500">
+        Order Mini-set deals
+    </button>
+
+    <div class="popup">
+        <span class="close-btn">&times;</span>
+        <h2 class="popup-title"></h2>
+        <p class="popup-size"></p>
+        <p class="popup-price"></p>
+        <label class="quantity-label">Quantity: <input type="number" class="quantity" value="1" min="1"></label>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+
+
+
+ </div>
+<!-- Popup -->
+ 
+
+
+<script src="script.js"></script>
+
+  </body>
+</html>

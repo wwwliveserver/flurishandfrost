@@ -35,7 +35,7 @@
           <li class="lists"><a href="#about">About</a></li>
           <li class="lists"><a href="#contact">Contact</a></li>
           <li class="go-to-menu">
-            <a href="#menu">
+            <a href="menu.html">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -54,7 +54,7 @@
         </ul>
       </header>
 
-      <div class="hero-main appear">
+      <div class="hero-main section">
         <p class="hero-spaced-letters">BEST BANANA BREAD AND CAKE</p>
         <h1>FLURISH & FROST</h1>
         <p class="hero-small-text">
@@ -62,7 +62,7 @@
           <br />
           in every bite. It's the treat your taste bud didn't know they needed !
         </p>
-        <a href="#menu">
+        <a href="menu.html">
           <strong>Order Now ! </strong>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -125,10 +125,10 @@
     <!--Hero section ends-->
 
     <!-- About section begins -->
-    <div class="about ease-in" id="about">
+    <div class="about" id="about">
       <div class="about-content">
-        <h1>About Us</h1>
-        <div class="card">
+        <h1 class="section">About Us</h1>
+        <div class="card section">
           <input id="click" type="checkbox" />
 
           <p>
@@ -201,410 +201,99 @@
     <!-- About section ends -->
 
     <!-- Menu setion Begins -->
-    <div class="menu-section ease-in" id="menu">
+    <div class="menu-section section" id="menu">
       <h2>Our Menu</h2>
+
+      <h3>Categories</h3>
       <div class="flex-menu">
-        <div class="table-menu ease-in i">
-          <section class="table-header">
-            <h2>MINI-SET COMBO</h2>
-          </section>
-          <section class="table-body">
-            <table>
-              <thead>
-                <tr>
-                  <th>ITEMS</th>
-                  <th>PRICE</th>
-                </tr>
-              </thead>
+        <a href="classic.html"
+          ><div class="table-menu section i">
+            <span class="tooltiptext">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-cart-check-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708"
+                />
+              </svg>
+              Order from our varieties
+            </span>
+            <h2>Classic Bread</h2>
+          </div>
+        </a>
 
-              <tbody style="padding-top: 20px">
-                <tr>
-                  <td>BANANA BLISS (4 SET)</td>
-                  <td>
-                    <a
-                      href=""
-                      onclick="sendMessage('BANANA BLISS (4 SET)', 5600)"
-                      >N 5,600</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
+        <a href="mini-combo.html"
+          ><div class="table-menu section ii">
+            <span class="tooltiptext">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-cart-check-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708"
+                />
+              </svg>
+              Order from our varieties
+            </span>
+            <h2>Mini-set combo deals</h2>
+          </div>
+        </a>
 
-              <tbody>
-                <tr>
-                  <td>NUTTY NANA (6 SET)</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('NUTTY NANA (6 SET)', 8900)"
-                      >N 8,900</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>CHUNKY CHOCO NANA (4 SET)</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('CHUNKY CHOCO NANA (4 SET)', 7000)"
-                      >N 7,000</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>BANANA BOOST (12 SET)</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('BANANA BOOST (12 SET)', 19500)"
-                      >N 19,500</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </section>
-        </div>
-
-        <div class="table-menu ease-in ii">
-          <section class="table-header">
-            <h2>Classic breads</h2>
-          </section>
-          <section class="table-body">
-            <table>
-              <thead>
-                <tr>
-                  <th>ITEMS</th>
-                  <th>MINI</th>
-                  <th>REGULAR</th>
-                </tr>
-              </thead>
-
-              <tbody style="padding-top: 20px">
-                <tr>
-                  <td>BANANA</td>
-                  <td>
-                    <a href="#" onclick="sendMessage('Mini Banana Bread', 1400)"
-                      >N 1,400
-                    </a>
-                  </td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Regular Banana Bread', 4500)"
-                      >N 4,500</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>BANANA X COCONUT</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Mini BANANA X COCONUT', 1500)"
-                      >N 1,500</a
-                    >
-                  </td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Regular BANANA X COCONUT', 5000)"
-                      >N 5,000</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>BANANA X CARROT</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Mini BANANA X CARROTT', 1500)"
-                      >N 1,500
-                    </a>
-                  </td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Regular BANANA X CARROT', 5000)"
-                      >N 5,000</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>BANANA X CHOCOLATE</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Mini BANANA X CHOCOLATE', 1700)"
-                      >N 1,700</a
-                    >
-                  </td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Regular BANANA X CHOCOLATE', 6000)"
-                      >N6,000</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>BANANA X ALMOND</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Mini BANANA X ALMOND', 1500)"
-                      >N 1,500
-                    </a>
-                  </td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Regular BANANA X ALMOND', 5000)"
-                      >N 5,000
-                    </a>
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>BANANA X PEANUT</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Mini BANANA X PEANUT', 1500)"
-                      >N 1,500
-                    </a>
-                  </td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Regular BANANA X PEANUT', 5000)"
-                      >N 5,000</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </section>
-        </div>
-
-        <div class="table-menu ease-in iii">
-          <section class="table-header">
-            <h2>Exotic breads</h2>
-          </section>
-          <section class="table-body">
-            <table>
-              <thead>
-                <tr>
-                  <th>ITEMS</th>
-                  <th>MINI</th>
-                  <th>REGULAR</th>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr>
-                  <td>BANANA X OREOS</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Mini BANANA X OREOS', 1800)"
-                      >N 1,800</a
-                    >
-                  </td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Regular BANANA X OREOS', 6500)"
-                      >N 6,500</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>CHIC CHOC BLAST</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Mini CHIC CHOC BLAST', 2000)"
-                      >N 2,000</a
-                    >
-                  </td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Regular CHIC CHOC BLAST', 7500)"
-                      >N 7,500</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>FRUTTI MIX</td>
-                  <td>
-                    <a href="#" onclick="sendMessage('Mini FRUTTI MIX', 1750)"
-                      >N 1,750</a
-                    >
-                  </td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Regular FRUTTI MIX', 6000)"
-                      >N 6,000</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>NO SUGAR CLASSIC</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Mini NO SUGAR CLASSIC', 2000)"
-                      >N 2,000</a
-                    >
-                  </td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Regular NO SUGAR CLASSIC', 7000)"
-                      >N7,000</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>NUTTY MIX</td>
-                  <td>
-                    <a href="#" onclick="sendMessage('Mini NUTTY MIX', 1700)"
-                      >N 1,700</a
-                    >
-                  </td>
-                  <td>
-                    <a href="#" onclick="sendMessage('Regular NUTTY MIX', 6500)"
-                      >N 6,500</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>BANANA X RAISINS</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Mini BANANA X RAISINS', 1700)"
-                      >N 1,700</a
-                    >
-                  </td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Regular BANANA X RAISINS', 6000)"
-                      >N 6,000</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>BANANA X NUTELLA</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Mini BANANA X NUTELLA', 1850)"
-                      >N 1,850</a
-                    >
-                  </td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Regular BANANA X NUTELLA', 7500)"
-                      >N 7,500</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>BANANA X CASHEW x CHOCOLATE CHUNKS</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Mini BANANA X CASHEW X CHOCOLATE CHUNKS', 2000)"
-                      >N 2,000</a
-                    >
-                  </td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Regular BANANA X CASHEW X CHOCOLATE CHUNKS', 7500)"
-                      >N 7,500</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-
-              <tbody>
-                <tr>
-                  <td>BANANA X COCONUT X <br />RAISINS X ALMONDS</td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Mini BANANA X COCONUT X RAISINS X ALMOND ', 1900)"
-                      >N 1,900</a
-                    >
-                  </td>
-                  <td>
-                    <a
-                      href="#"
-                      onclick="sendMessage('Regular BANANA X COCONUT X RAISINS X ALMOND', 7000)"
-                      >N 7,000</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </section>
-        </div>
+        <a href="exotic.html"
+          ><div class="table-menu section iii">
+            <span class="tooltiptext">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-cart-check-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708"
+                />
+              </svg>
+              Order from our varieties
+            </span>
+            <h2>Exotic Bread</h2>
+          </div>
+        </a>
+      </div>
+      <div class="all-breads">
+        <a href="menu.html"
+          >All Breads
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-right-short"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"
+            />
+          </svg>
+        </a>
       </div>
     </div>
     <!-- Menu section Ends -->
 
     <!-- Best seller exotic section begins -->
     <div class="best-seller-exotic">
-      <h2>Best Seller</h2>
-      <div class="best-seller-card ease-in">
+      <h2 class="section">Best Seller</h2>
+      <div class="best-seller-card section">
         <h3>EXOTIC BREAD</h3>
         <p>
           Exotic banana bread takes the familiar comfort of a classic and
@@ -621,7 +310,7 @@
     <!-- Best seller mini-set combo begins -->
     <div class="best-seller-mini-combo">
       <div class="combo-flex">
-        <div class="combo-card ease-in">
+        <div class="combo-card section">
           <h2>Mini-set combo</h2>
           <input id="check" type="checkbox" />
 
@@ -644,7 +333,7 @@
           <label for="check">Read more</label>
         </div>
 
-        <div class="ease-in">
+        <div class="section">
           <img
             src="img/mini set combo.jpg"
             alt="mini-set banana bread"
@@ -656,9 +345,9 @@
     <!-- Best seller mini-set combo ends -->
 
     <!-- Vision section Begins-->
-    <div class="vision-section ease-in">
+    <div class="vision-section section">
       <h2>Vision & Mission</h2>
-      <div class="ease-in">
+      <div class="section">
         <h3>Vision</h3>
         <p>
           To be globally celebrated brand that transaforms the simple joys of
@@ -677,7 +366,7 @@
     <!-- Vision section Ends -->
 
     <!-- Contact Section begins -->
-    <div class="contact-section ease-in" id="contact">
+    <div class="contact-section section" id="contact">
       <h2>Contact Us</h2>
       <p>Order yours today !</p>
       <p class="xi">
@@ -773,3 +462,5 @@
     <script src="myscript.js"></script>
   </body>
 </html>
+
+<a href="#" onclick="sendMessage('Mini BANANA X OREOS', 1800)">N 1,800</a>
