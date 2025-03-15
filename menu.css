@@ -392,15 +392,11 @@ body {
   }
 
   .navbar a {
-    font-size: 10px;
+    font-size: 9px;
   }
 
   .logo {
     margin-left: 0;
-  }
-
-  .categories {
-    font-weight: normal;
   }
 
   .search-bar {
@@ -414,7 +410,7 @@ body {
 
 @media (max-width: 350px) {
   .navbar a {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .navbar {
@@ -430,6 +426,10 @@ body {
     margin-left: -60px !important;
     margin-top: 5px;
   }
+}
+
+.categories {
+  font-size: 8px !important;
 }
 
 /* Navbar ends */
